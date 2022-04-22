@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    background-color: #fff;
+}
+
+.logo {
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.menu li {
+    display: inline-block;
+    margin: 5px 10px;
+    text-align: center;
+    margin-right: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.one {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+}
+
+.first-title {
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-align: center;
+    /* color: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0)); */
+    color: whitesmoke;
+    font-size: 75px;
+    text-transform: uppercase;
+    padding-top: 15%;
+}
+
+.main-text {
+    text-align: center;
+    padding-top: 5%;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.btn {
+    margin-top: 3%;
+    font-size: 80%;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #64a19d;
+    border-color: #64a19d;
+    cursor: pointer;
+    border-radius: 7%;
+    border: 1px solid #64a19d;
+    text-transform: uppercase;
+}
+
+.btn-size {
+
+    margin-left: 45%;
+    padding: 25px 50px;
+    font-weight: 400px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.two {
+    width: 100%;
+    height: 92.6vh;
+    background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.two-title {
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 4%;
+
+}
+
+.two-text {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    color: whitesmoke;
+    justify-content: center;
+    text-align: justify;
+}
+
+.two-text a {
+    color: #64a19d;
+}
+
+.two-img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 6%;
+    font-weight: 22px;
+    vertical-align: middle;
+}
+
+.three {
+    padding-top: 16%;
+    width: 100%;
+    height: 1000px;
+}
+
+.project {
+    margin: 0 12% ;
+    height: 55%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.three-img
+{
+    width: 600px;
+    height: 400px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+}
+
