@@ -97,7 +97,7 @@ a {
 
 .two {
     width: 100%;
-    height: 92.6vh;
+    height: 85vh;
     background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 
@@ -117,18 +117,17 @@ a {
     align-content: center;
     color: whitesmoke;
     justify-content: center;
-    text-align: justify;
+    text-align: justify; 
 }
 
 .two-text a {
     color: #64a19d;
 }
 
-.two-img {
-    max-width: 100%;
-    height: auto;
+.img-in-two {
+    height: 50%;
     margin-right: 6%;
-    font-weight: 22px;
+    font-weight: 2px;
     vertical-align: middle;
 }
 
@@ -150,5 +149,17 @@ a {
     width: 600px;
     height: 400px;
     background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg);
+}
+.three-title
+{
+    text-align: center;
+    font-size: 42px;
+    margin-left: 7%;
+}
+.three-text
+{
+    margin-left: 12%;
+    margin-right: 72%;
+    justify-content: flex-end;
 }
 
